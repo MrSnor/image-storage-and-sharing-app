@@ -1,0 +1,3 @@
+[submodule "spring-postgres-image-storage"]
+	path = spring-postgres-image-storage
+	url = https://github.com/MrSnor/spring-postgres-image-storage.git
