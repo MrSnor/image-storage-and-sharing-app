@@ -88,14 +88,21 @@ This simplified structure provides a clean separation of concerns and ensures sc
 | **GET**     | `/api/show?uuid=FILE_UUID`        | Preview image by file UUID (query param).|  
 | **GET**     | `/api/show/150/200?uuid=FILE_UUID`| Preview image with specific dimensions (150x200) by UUID. |  
 | **GET**     | `/api/show/300/200?name=FILE_NAME`| Preview image with specific dimensions (300x200) by file name. |  
-| **GET**     | `/api/show/200/400/FILE_NAME`     | Preview image with specific dimensions (200x400) by file name. |  
+<!-- | **GET**     | `/api/show/200/400/FILE_NAME`     | Preview image with specific dimensions (200x400) by file name. |   -->
 <!-- | **GET**     | `/api/view/FILE_NAME`             | Preview image by file name.              |   -->
 
-Delete Endpoints  
+Delete Endpoints (Work in Progress)
 
 | HTTP Method | Endpoint         | Description                              |  
 |-------------|------------------|------------------------------------------|  
 | **DELETE**  | `/api/delete/FILE_NAME`     | Delete an image by file name.            |
+
+Download Endpoints (Work in Progress)
+
+| HTTP Method | Endpoint         | Description                              |  
+|-------------|------------------|------------------------------------------|  
+| **GET**     | `/api/download?uuid=FILE_UUID`     | Download an image by file name.          |
+| **GET**     | `/api/archive`        | Download all images in a zip file.       |
 
 ### Roadmap
 
