@@ -2,13 +2,9 @@
 
 Your reliable, self-hosted solution for effortless photo and video management.
 
-## Mission
+## Objective
 
 To provide a reliable and intuitive self-hosted platform for effortless photo and video management, ensuring privacy, accessibility, and ease for every user.
-
-## Vision
-
-To create a platform that empowers users to share their digital assets with ease, ensuring privacy, accessibility, and ease for every user.
 
 ## Features
 
